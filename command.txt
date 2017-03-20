@@ -1,0 +1,20 @@
+reate Repositor
+cd 到需要创建版本的目录下，执行
+$ git init
+
+2. 新增文件
+$ git add xxx.txt
+
+3. 删除文件
+$ git delete xxx.txt
+
+4. 提交修改
+$ git commit -m "本次提交的说明"
+
+5. 查看修改了什么
+$ git diff
+
+6. 显示commit日志
+$ git log
+or (一行显示)
+$ git log --pretty=oneline
